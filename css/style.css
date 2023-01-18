@@ -1,0 +1,246 @@
+/*
+font-weight:
+Устанавливает насыщенность шрифта.
+100 - thin
+300 - lite
+400 - normal
+500 - medium
+600 - semibold
+700 - bold
+900 - black
+*/
+
+/* &display=swap&subset=cyrillic-ext */
+
+@import url("https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic&display=swap&subset=cyrillic-ext "); 
+@import url("https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic");
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy-Bold.woff2') format('woff2'),
+        url('../fonts/Gilroy-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy-Regular.woff2') format('woff2'),
+        url('../fonts/Gilroy-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* ОБНУЛЕНИЕ СТИЛЕЙ */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+html,
+body {
+	height: 100%;
+}
+html {
+	font-size: 16px; /* по умолчанию */
+}
+body {
+	line-height: 1;
+}
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+	font-family: 'Poppins' ;
+	background-color: #f5f5f5;
+}
+/* ------------------------------ */
+
+
+.menu {
+	padding: 30px 0px;
+}
+
+.top {
+	padding: 280px 0px 312px 0px;
+	background: url(../img/bg.png)0 0 / cover no-repeat;
+}
+
+.nemo {
+	padding: 112px 0px 213px 0px;
+	background: url(../img/bgnemo.jpg)0 0 / cover no-repeat ;
+}
+
+
+.contact {
+	padding: 30px 0px;
+}
+
+.menu__container {
+	max-width: 1020px;
+	margin: 0 auto;
+}
+.menu__list {
+	text-transform: uppercase;
+	font-weight: 500;
+	line-height: 150%;
+}
+.menu__list li {
+	margin: 0px 0px 10px 0px;
+	padding: 0px 0px 0px 30px;
+	background: url(../img/arrow.png) 0 50% / 20px 14px no-repeat;
+}
+
+
+.top__container {
+	max-width: 1020px;
+	margin: 0 auto;
+}
+.top__title {
+	max-width: 640px;
+	font-weight: 900;
+	font-size: 56px;
+	line-height: 100%;
+	color: #FFFFFF;
+	margin: 0px 0px 40px 0px;	
+}
+.top__button {
+	background: url(../img/arrow.png) 165px 0px / 45px 47px no-repeat , url(../img/btn.png) 0 0 / cover no-repeat;
+	padding: 12px 50px 12px 14px;
+	display: inline-block;
+	font-weight: 700;
+	font-size: 12px;
+	line-height: 200%;
+	letter-spacing: 0.15px;
+	text-transform: uppercase;
+	color: #FFFFFF;
+}
+
+
+
+.nemo__container {
+	max-width: 1020px;
+	margin: 0 auto;
+}
+.nemo__box {
+	
+}
+.nemo__logo {
+	padding: 0px 0px 0px 30px;
+	margin: 0px 0px 32px 0px;
+	font-weight: 700;
+	font-size: 12px;
+	line-height: 200%;
+	letter-spacing: 2.5px;
+	text-transform: uppercase;
+	color: #D5D5D5;
+	background: url(../img/logo1.png) 2px 50% / 20px no-repeat;
+}
+.nemo__title {
+	max-width: 500px;
+	font-weight: 900;
+	font-size: 36px;
+	line-height: 117%;
+	color: #FFFFFF;
+	margin: 0px 0px 75px 0px;	
+}
+.nemo__content {
+	
+}
+.content {
+	display: inline-block;
+	max-width: 237px;
+	padding: 0px 0px 0px 90px;
+}
+._one {
+	background: url(../img/01.png) 2px 50% / 70px no-repeat;
+}
+._two{
+	background: url(../img/02.png) 2px 0 / 70px no-repeat;
+	vertical-align: top;
+}
+._three {
+	background: url(../img/03.png) 2px 50% / 70px no-repeat;
+}
+
+._four {
+	background: url(../img/04.png) 2px 50% / 70px no-repeat;
+}
+.content__title {
+	font-weight: 900;
+	font-size: 36px;
+	line-height: 117%;
+	color: #C40B0B;
+	margin: 0px 0px 5px 0px;
+	
+}
+.content__subtitle {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 150%;
+	letter-spacing: 0.15px;
+	color: #F5F5F5;
+	max-width: 149px;
+}
+
+
+
+.contact__container {
+	max-width: 1020px;
+	margin: 0 auto;
+}
+.contact__menu {
+}
+.contact__list {
+	padding: 0px 0px;
+	margin: 0px 0px 17px 0px;
+	padding: 0px 0px 0px 40px;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 143%;
+	letter-spacing: 0.15px;
+	color: #4B4B4B;
+}
+
+._five {
+	max-width: 250px;
+	background: url(../img/05.png) 0 3px / 17px no-repeat;
+}
+
+._six {
+	background: url(../img/06.png) 0 3px / 17px no-repeat;
+}
+
+._seven {
+	background: url(../img/07.png) 0 3px / 17px no-repeat;
+}
+
+._eight {
+	background: url(../img/08.png) 0 3px / 17px no-repeat;
+}
